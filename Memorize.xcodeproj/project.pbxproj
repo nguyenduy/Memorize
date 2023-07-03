@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041D53932A4D35D8007A4CDB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D53922A4D35D8007A4CDB /* CardView.swift */; };
 		044055A02A4D35190084C0AE /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440559F2A4D35190084C0AE /* MemorizeApp.swift */; };
 		044055A22A4D35190084C0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044055A12A4D35190084C0AE /* ContentView.swift */; };
 		044055A42A4D351A0084C0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044055A32A4D351A0084C0AE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041D53922A4D35D8007A4CDB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0440559C2A4D35190084C0AE /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440559F2A4D35190084C0AE /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		044055A12A4D35190084C0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041D538E2A4D357F007A4CDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041D53922A4D35D8007A4CDB /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041D53902A4D35A7007A4CDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041D53912A4D35B0007A4CDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		044055932A4D35190084C0AE = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +75,11 @@
 		0440559E2A4D35190084C0AE /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				0440559F2A4D35190084C0AE /* MemorizeApp.swift */,
+				041D53912A4D35B0007A4CDB /* ViewModel */,
+				041D53902A4D35A7007A4CDB /* Model */,
+				041D538E2A4D357F007A4CDB /* View */,
 				044055A12A4D35190084C0AE /* ContentView.swift */,
+				0440559F2A4D35190084C0AE /* MemorizeApp.swift */,
 				044055A32A4D351A0084C0AE /* Assets.xcassets */,
 				044055A52A4D351A0084C0AE /* Preview Content */,
 			);
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044055A22A4D35190084C0AE /* ContentView.swift in Sources */,
+				041D53932A4D35D8007A4CDB /* CardView.swift in Sources */,
 				044055A02A4D35190084C0AE /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
